@@ -9,21 +9,21 @@ airdrop_live = True
 
 # Telegram
 api_token = (
-    "<YOUR BOT TOKEN>"  # More: https://core.telegram.org/bots#3-how-do-i-create-a-bot
+    "2044099722:AAHy470wqbdX5ndGj4RktTGSaFr6PyTqV88"  # More: https://core.telegram.org/bots#3-how-do-i-create-a-bot
 )
 
-host = ""  # ip/host where the bot is running
+host = "vps"  # ip/host where the bot is running
 
-log_channel = 0  # Channel ID. Example: -1001355597767
-admins = []  # Telegram User ID's. Admins are able to execute command "/airdroplist"
-airdrop_cap = 100  # Max airdrop submissions that are being accepted
-wallet_changes = 3  # How often a user is allowed to change their wallet address
+log_channel = -1001262520366 # Channel ID. Example: -1001355597767
+admins = [1042657912]  # Telegram User ID's. Admins are able to execute command "/airdroplist"
+airdrop_cap = 1000  # Max airdrop submissions that are being accepted
+wallet_changes = 2  # How often a user is allowed to change their wallet address
 
 # MySQL Database
 mysql_host = "localhost"
 mysql_db = "TelegramAirdropBot"
 mysql_user = "AirdropUser"
-mysql_pw = "<YOUR PASSWORD>"
+mysql_pw = "8ynJg&s?9$voMf**"
 
 texts = {
     "start_1": "Hi {} and welcome to our Airdrop!\n\nGet started by clicking the button below.\n\n",
